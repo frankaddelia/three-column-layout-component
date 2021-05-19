@@ -4,12 +4,23 @@ body {
   font-size: 15px;
 }
 
+button {
+  background-color: #f2f2f2;
+  border: 0;
+  border-radius: 25px;
+  font-size: 15px;
+  height: 50px;
+  width: 150px;
+}
+
 h2 {
+  color: #f2f2f2;
   margin: 0;
   padding: 0;
 }
 
 p {
+  color: rgba(255, 255, 255, 0.75);
   margin: 0;
   padding: 0;
 }
@@ -73,13 +84,22 @@ p {
 #sedans {
   background-color: #e38826;
 }
+#sedans button {
+  color: #e38826;
+}
 
 #suvs {
   background-color: #006970;
 }
+#suvs button {
+  color: #006970;
+}
 
 #luxury {
   background-color: #004241;
+}
+#luxury button {
+  color: #004241;
 }
 
 /*# sourceMappingURL=styles.css.map */

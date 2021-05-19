@@ -16,12 +16,23 @@ body {
     font-size: 15px;
 }
 
+button {
+    background-color: $very-light-gray;
+    border: 0;
+    border-radius: 25px;
+    font-size: 15px;
+    height: 50px;
+    width: 150px;
+}
+
 h2 {
+    color: $very-light-gray;
     margin: 0;
     padding: 0;
 }
 
 p {
+    color: $transparent-white;
     margin: 0;
     padding: 0;
 }
@@ -85,12 +96,24 @@ p {
 
 #sedans {
     background-color: $bright-orange;
+
+    button {
+        color: $bright-orange;
+    }
 }
 
 #suvs {
     background-color: $dark-cyan;
+
+    button {
+        color: $dark-cyan;
+    }
 }
 
 #luxury {
     background-color: $very-dark-cyan;
+
+    button {
+        color: $very-dark-cyan;
+    }
 }
