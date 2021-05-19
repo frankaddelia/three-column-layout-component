@@ -28,6 +28,13 @@ body {
         width: 150px;
     }
 
+    button:hover {
+        background-color: transparent;
+        border: 3px solid $very-light-gray;
+        color: $very-light-gray !important;
+        cursor: pointer;
+    }
+
     h2 {
         color: $very-light-gray;
         font-family: 'Big Shoulders Display', cursive;
