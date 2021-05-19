@@ -1,5 +1,26 @@
 // sass source/scss/styles.scss build/css/styles.css
 
+/*** primary ***/
+$bright-orange: hsl(31deg, 77%, 52%);
+$dark-cyan: hsl(184deg, 100%, 22%);
+$very-dark-cyan: hsl(179deg, 100%, 13%);
+
+/*** neutrual ***/
+$transparent-white: hsla(0deg, 0%, 100%, 0.75);
+$very-light-gray: hsl(0deg, 0%, 95%);
+
+// font-family: 'Big Shoulders Display', cursive;
+// font-family: 'Lexend Deca', sans-serif;
+
+body {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 375px;
+    }
+}
 
 .attribution {
     font-size: 11px;
