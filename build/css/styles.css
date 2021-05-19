@@ -4,6 +4,10 @@ body {
   font-size: 15px;
 }
 
+main {
+  margin-top: 50px;
+}
+
 .column {
   padding: 50px;
   width: 350px;
