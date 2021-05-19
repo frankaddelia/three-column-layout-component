@@ -5,8 +5,8 @@ body {
 }
 
 .column {
-  max-width: 350px;
   padding: 50px;
+  width: 350px;
 }
 .column button {
   background-color: #f2f2f2;
@@ -63,6 +63,10 @@ body {
 }
 
 @media screen and (max-width: 1440px) {
+  .column {
+    width: 225px;
+  }
+
   .container {
     flex-direction: column;
     width: 375px;
