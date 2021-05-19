@@ -14,9 +14,8 @@ body {
 }
 
 .column {
-    // max-width: 375px;
+    max-width: 350px;
     padding: 50px;
-    width: 375px;
 
     button {
         background-color: $very-light-gray;
@@ -38,7 +37,7 @@ body {
     h2 {
         color: $very-light-gray;
         font-family: 'Big Shoulders Display', cursive;
-        font-size: 50px;
+        font-size: 40px;
         margin: 0;
         padding: 0;
         text-transform: uppercase;
@@ -49,11 +48,11 @@ body {
         font-family: 'Lexend Deca', sans-serif;
         line-height: 25px;
         margin: 0;
-        padding: 50px 0;
+        padding: 40px 0;
     }
 
     p:first-child {
-        padding: 0 0 50px 0;
+        padding: 0 0 40px 0;
     }
 }
 
@@ -64,7 +63,7 @@ body {
     margin: 0 auto;
     min-height: 450px;
     max-width: 1440px;
-    width: 1000px;
+    width: 950px;
 }
 
 .left-rounded-corners {

@@ -5,8 +5,8 @@ body {
 }
 
 .column {
+  max-width: 350px;
   padding: 50px;
-  width: 375px;
 }
 .column button {
   background-color: #f2f2f2;
@@ -26,7 +26,7 @@ body {
 .column h2 {
   color: #f2f2f2;
   font-family: "Big Shoulders Display", cursive;
-  font-size: 50px;
+  font-size: 40px;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
@@ -36,10 +36,10 @@ body {
   font-family: "Lexend Deca", sans-serif;
   line-height: 25px;
   margin: 0;
-  padding: 50px 0;
+  padding: 40px 0;
 }
 .column p:first-child {
-  padding: 0 0 50px 0;
+  padding: 0 0 40px 0;
 }
 
 .container {
@@ -49,7 +49,7 @@ body {
   margin: 0 auto;
   min-height: 450px;
   max-width: 1440px;
-  width: 1000px;
+  width: 950px;
 }
 
 .left-rounded-corners {
