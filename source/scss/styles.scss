@@ -16,15 +16,37 @@ body {
     font-size: 15px;
 }
 
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
 .column {
     max-width: 480px;
+    padding: 50px;
 }
 
 .container {
+    color: $transparent-white;
     display: flex;
     flex-direction: row;
     margin: 0 auto;
     max-width: 1440px;
+}
+
+.left-rounded-corners {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.right-rounded-corners {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 @media screen and (max-width: 1440px) {
@@ -36,6 +58,20 @@ body {
         flex-direction: column;
         width: 375px;
     }
+
+    .left-rounded-corners {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 0;
+    }
+    
+    .right-rounded-corners {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 10px;
+    }
 }
 
 .attribution {
@@ -45,4 +81,16 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+#sedans {
+    background-color: $bright-orange;
+}
+
+#suvs {
+    background-color: $dark-cyan;
+}
+
+#luxury {
+    background-color: $very-dark-cyan;
 }
