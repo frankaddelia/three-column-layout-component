@@ -14,8 +14,9 @@ body {
 }
 
 .column {
-    max-width: 480px;
+    // max-width: 375px;
     padding: 50px;
+    width: 375px;
 
     button {
         background-color: $very-light-gray;
@@ -39,6 +40,7 @@ body {
     p {
         color: $transparent-white;
         font-family: 'Lexend Deca', sans-serif;
+        line-height: 25px;
         margin: 0;
         padding: 50px 0;
     }
@@ -48,8 +50,10 @@ body {
     color: $transparent-white;
     display: flex;
     flex-direction: row;
+    height: 450px;
     margin: 0 auto;
     max-width: 1440px;
+    width: 1000px;
 }
 
 .left-rounded-corners {
@@ -63,10 +67,6 @@ body {
 }
 
 @media screen and (max-width: 1440px) {
-    .column {
-        width: 375px;
-    }
-
     .container {
         flex-direction: column;
         width: 375px;
