@@ -1,3 +1,22 @@
+/*** primary ***/
+/*** neutrual ***/
+body {
+  font-size: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    flex-direction: column;
+    width: 375px;
+  }
+}
 .attribution {
   font-size: 11px;
   text-align: center;
