@@ -1,0 +1,123 @@
+/*** primary ***/
+/*** neutrual ***/
+body {
+  font-size: 15px;
+}
+
+main {
+  margin-top: 50px;
+}
+
+.column {
+  padding: 50px;
+  width: 350px;
+}
+.column button {
+  background-color: #f2f2f2;
+  border: 0;
+  border-radius: 25px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  height: 50px;
+  width: 150px;
+}
+.column button:hover {
+  background-color: transparent;
+  border: 3px solid #f2f2f2;
+  color: #f2f2f2 !important;
+  cursor: pointer;
+}
+.column h2 {
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+.column p {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 25px;
+  margin: 0;
+  padding: 40px 0;
+}
+.column p:first-child {
+  padding: 0 0 40px 0;
+}
+
+.container {
+  color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  min-height: 450px;
+  max-width: 1440px;
+  width: 950px;
+}
+
+.left-rounded-corners {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.right-rounded-corners {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+  .column {
+    width: 225px;
+  }
+
+  .container {
+    flex-direction: column;
+    width: 375px;
+  }
+
+  .left-rounded-corners {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0;
+  }
+
+  .right-rounded-corners {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+#sedans {
+  background-color: #e38826;
+}
+#sedans button {
+  color: #e38826;
+}
+
+#suvs {
+  background-color: #006970;
+}
+#suvs button {
+  color: #006970;
+}
+
+#luxury {
+  background-color: #004241;
+}
+#luxury button {
+  color: #004241;
+}
+
+/*# sourceMappingURL=styles.css.map */
