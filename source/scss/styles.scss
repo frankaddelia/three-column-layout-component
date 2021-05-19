@@ -16,6 +16,10 @@ body {
     font-size: 15px;
 }
 
+.column {
+    max-width: 480px;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -24,6 +28,10 @@ body {
 }
 
 @media screen and (max-width: 1440px) {
+    .column {
+        width: 375px;
+    }
+
     .container {
         flex-direction: column;
         width: 375px;
