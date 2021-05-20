@@ -24,8 +24,8 @@ Screen shot of my solution
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution Repo](https://github.com/frankaddelia/three-column-layout-component)
+- Live Site URL: [Live site](http://frontent-mentor.addelia.com.s3-website-us-east-1.amazonaws.com/three-column-layout/index.html)
 
 ## My process
 
