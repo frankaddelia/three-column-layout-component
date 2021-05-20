@@ -25,7 +25,7 @@ Screen shot of my solution
 ### Links
 
 - Solution URL: [Solution Repo](https://github.com/frankaddelia/three-column-layout-component)
-- Live Site URL: [Live site](https://frontent-mentor.addelia.com.s3-website.us-east-1.amazonaws.com/index.html)
+- Live Site URL: [Live site](https://frankaddelia.github.io/three-column-layout-component/)
 
 ## My process
 
